@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.noman.myvoicerecorder.Recipients">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="-2dp"
+        android:background="@drawable/bglist">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/recipients"
+            android:textColor="#616161"
+            android:textStyle="bold"
+            android:paddingLeft="12dp"
+            android:gravity="bottom"
+            android:layout_marginTop="8dp"
+            android:textSize="24sp"/>
+
+        <ImageButton
+            android:id="@+id/btn_addButton"
+            android:layout_width="45dp"
+            android:visibility="gone"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_add_black_24dp"
+            android:background="@drawable/bgbutton"
+            android:layout_alignParentLeft="true"/>
+
+
+
+
+        <ImageButton
+
+            android:id="@+id/btn_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bgbutton"
+            android:src="@drawable/ic_close_black_24dp"
+            android:layout_alignParentRight="true"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/recipients_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:clickable="true"
+        android:focusable="true"
+        >
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/add_recip_container"
+        android:background="#80000000"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+
+            android:background="@drawable/bglist"
+
+            android:padding="4dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/recipient_info"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/name"
+                android:id="@+id/et_name"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_address"
+                android:id="@+id/et_email"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/add"
+
+                    android:id="@+id/btn_dialog_add"
+                    android:textColor="#FFF"
+                    android:background="#666666"
+
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/cancel"
+                    android:id="@+id/btn_cancel"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFF"
+                    android:layout_toRightOf="@+id/btn_dialog_add"
+                    android:background="#666666"
+
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/update_recip_container"
+        android:background="#80000000"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:background="@drawable/bglist"
+            android:padding="4dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/recipient_info"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/name"
+                android:id="@+id/et_update_name"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_address"
+                android:id="@+id/et_update_email"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/save"
+
+                    android:id="@+id/btn_dialog_update"
+                    android:textColor="#FFF"
+                    android:background="#666666"
+
+                    />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/cancel"
+                    android:id="@+id/btn_update_cancel"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#FFF"
+                    android:layout_toRightOf="@+id/btn_dialog_update"
+                    android:background="#666666"
+
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

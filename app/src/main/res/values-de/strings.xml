@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">talk2memo</string>
+    <string name="email_address">E-Mail-Adresse</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="recipient_info">Empfänger-Info</string>
+    <string name="settings">Einstellungen</string>
+    <string name="subject">Betreff</string>
+    <string name="language">Sprache wählen</string>
+    <string name="info">Impressum</string>
+    <string name="subjects">Betreffzeilen konfigurieren</string>
+    <string name="recipients">Empfänger konfigurieren</string>
+    <string name="name">Name</string>
+    <string name="add">Add</string>
+    <string name="use_subject">Verwendeter Betreff</string>
+    <string name="faq">FAQ</string>
+    <string name="send_audio_file_to">Sprachdatei senden an</string>
+    <string name="content_of_email">Inhalt der E-Mail</string>
+    <string name="send_email">E-Mail versenden</string>
+    <string name="no_recording_found">keine Aufzeichnung vorhanden</string>
+    <string name="recording_deleted">Aufzeichnung gelöscht</string>
+    <string name="saving_file">Datei speichern</string>
+    <string name="delete_audio">Aufnahme löschen?</string>
+    <string name="are_you_sure_to_delete">Sind Sie sich wirklich sicher?</string>
+    <string name="record_first">Bitte zuerst Nachricht aufzeichnen</string>
+    <string name="addrecipients_first">Kontakte hinzufügen bei den Einstellungen</string>
+    <string name="unknown_error">Etwas ging schief, versuche es später</string>
+    <string name="saved">Änderung gespeichert</string>
+    <string name="email_not_valid">E-mail ist ungültig</string>
+    <string name="email_already_exists">E-Mail existiert bereits</string>
+    <string name="audio_deleted">Aufzeichnung gelöscht</string>
+    <string name="empty_subject">Du musst einen Betreff auswählen</string>
+    <string name="empty_subject_2">Du musst eine Betreffzeile hinterlegen</string>
+    <string name="empty_content">Du musst einen Inhalt der E-Mail</string>
+    <string name="subject_already">Du musst einen Empfänger auswählen</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string name="mode">Modus</string>
+    <string name="minimalistic">minimalistisch</string>
+    <string name="email_body">Nachricht von talk2memo</string>
+    <string name="email_sent_successfully">Nachricht wurde versendet</string>
+    <string name="email_not_sent_successfully">Bericht is niet verzonden</string>
+
+    <string name="show_page_content">Zeige die Seite &quot;Inhalt der E-Mail&quot;</string>
+    <string name="show_page_subject">Zeige die Seite &quot;Auswahl des Betreffs&quot;</string>
+    <string name="send_via_email_programm">Versende über das eigene E-Mail-Programm</string>
+    <string name="send_via_server">Versende über den Talk2Memo-Server</string>
+    <string name="min_settings_desc">"Sie haben hier die Möglichkeit auszuwählen, welche Seiten zum Konfigurierenn der Mail Sie anzeigen möchten.\nFerner können Sie entscheiden, ob die Nachricht über Ihr Mailprogramm oder alternativ ganz einfach über unseren Server versendet werden soll."</string>
+    <string name="email_settings">E-Mail-Einstellungen</string>
+    <string name="user_below_line_subject">Nutze als Betreffzeile die folgende:</string>
+    <string name="use_following_content">Nutze als Inhalt der E-Mail das folgende:</string>
+    <string name="audio_file_name">Name der Audio-Datei (*.wav)</string>
+    <string name="upload_success">Upload erfolgreich abgeschlossen</string>
+    <string name="uploading">hochladen mit</string>
+    <string name="upload_error">Fehler beim Hochladen</string>
+    <string name="upload_cancelled">Hochladen abgebrochen</string>
+    <string name="file_name_default">Audio_Nachricht</string>
+    <string name="default_subject">Nachricht von Hans Mustermann</string>
+    <string name="default_content">Beiliegende Audio-Datei zur Bearbeitung</string>
+
+</resources>
